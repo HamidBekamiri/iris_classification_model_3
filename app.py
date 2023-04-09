@@ -22,4 +22,4 @@ input_data = [[sepal_length, sepal_width, petal_length, petal_width]]
 
 if st.sidebar.button("Predict"):
     prediction = model.predict(input_data)
-    st.write(f"Predicted iris species: {iris.target_names[prediction[0]]}")
+    st.write(f"Predicted iris species new version: {iris.target_names[prediction[0]]}")
