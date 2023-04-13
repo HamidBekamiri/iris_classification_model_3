@@ -10,7 +10,7 @@ model.fit(X_train, y_train)
 
 import streamlit as st
 
-st.title("Iris Classification MLops")
+st.title("Iris Classification")
 st.sidebar.title("Input Parameters")
 
 sepal_length = st.sidebar.slider("Sepal length", 0.0, 10.0, 5.0)
